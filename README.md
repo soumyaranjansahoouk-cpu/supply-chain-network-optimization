@@ -1,0 +1,45 @@
+# Supply Chain Network Optimization & Procurement Risk Analysis
+
+## Project Overview
+End-to-end supply chain consulting case study modelled on 
+McKinsey/Deloitte engagement methodology. Analysed 180,519 
+real orders from DataCo Global to identify $9.1M in cost 
+reduction and risk mitigation opportunities.
+
+## Business Problem
+DataCo Global operated at 41% on-time delivery rate against 
+a 95% industry benchmark, with no supplier risk framework 
+and misaligned modal mix driving freight cost overruns.
+
+## Dataset
+DataCo Smart Supply Chain Dataset — Kaggle
+180,519 rows | 52 columns | 2015-2018
+https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
+
+## Models Built
+- OTR Analysis — on-time rate by shipping mode and region
+- Cost-to-Serve Heatmap — profit margin by product and mode
+- Kraljic Matrix — supplier risk classification (25 suppliers)
+- Scenario Model — Base / Red Sea Disruption / Optimized
+
+## Key Findings
+- 59% of all orders delivered late (98,977 of 180,519)
+- 6 single-source Chinese suppliers = 34% of total spend
+- Red Sea disruption would increase costs by 24% to $35.6M
+- Optimized scenario delivers 18% cost reduction to $23.5M
+
+## Tools Used
+Excel | Power BI | Pivot Tables | COUNTIFS | Scatter Charts
+Kraljic Matrix | Scenario Modelling | McKinsey Pyramid Principle
+
+## Full Excel Analysis File
+Complete workbook available here:
+https://docs.google.com/spreadsheets/d/1gc-0h1knGxCdyRQZZSoLgeE_K9bqfx93/edit?usp=sharing&ouid=105238217798318531185&rtpof=true&sd=true
+
+## Project Files
+- DataCo_Dashboard.pbix — Power BI interactive dashboard
+- Supply Chain Network Optimization.pdf — 12-slide deck
+- supplier master risk table.xlsx — 25-row supplier database
+
+## Author
+Soumya Ranjan Sahoo
